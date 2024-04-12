@@ -22,6 +22,4 @@ sephora_data <- sephora_data %>%
           grepl("retinol", ingredients, ignore.case = TRUE))
 
 # write new csv with cleaned data
-write.csv(sephora_data, "sephora_filtered.csv", row.names = FALSE)
-
-
+write.csv(sephora_data, "sephora_filtered_retinol.csv", row.names = FALSE)
