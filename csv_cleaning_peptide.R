@@ -14,7 +14,7 @@ print(peptide_num)
 
 # select the relevant columns required
 sephora_data <- sephora_data %>%
-  select(rating, ingredients, product_id, product_name, brand_id, brand_name)
+  select(rating, ingredients, product_id, product_name, brand_id, brand_name, price_usd, size)
 
 # filter out rows with products only containing Peptide & contain ratings
 sephora_data <- sephora_data %>%
