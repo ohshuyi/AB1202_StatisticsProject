@@ -8,7 +8,7 @@ sephora_data <- read.csv("product_info.csv")
 peptide_num <- sum(grepl("Peptide", sephora_data$ingredients, ignore.case = TRUE) 
                    & !is.na(sephora_data$rating))
 
-# check for number of products with Niacinamide (for checking of csv later)
+# check for number of products with Peptide (for checking of csv later)
 print(peptide_num)
 
 

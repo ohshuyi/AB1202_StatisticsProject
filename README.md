@@ -7,6 +7,7 @@ Strategically forecasting the future of anti-aging skincare products to optimise
 2. moments
 3. ggpubr
 4. BSDA
+5. stringr
 
 ## References
 #### Sample Size and Number of Samples
